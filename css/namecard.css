@@ -43,3 +43,7 @@ body > div > * {border: 1px solid blue} */
 .direction .title{font-size: 16px;text-align: center;margin-bottom: 50px;}
 .direction .direct_map{width: auto; border: 1px solid #000;height: 400px;}
 /* width = 100%처럼 한줄을 다 쓰는 크기 는 padding 줘씅ㄹ 떄 추가되는거고, auto는 조절이 되는거임*/
+
+.qrimg{width: 50px;position: absolute;left: 30px;top: 30;}
+/*  절대적으로 위에 떠있고 위치는 포지션을 쓰는 순간  */
+.qrimg img{width: 100%;}
